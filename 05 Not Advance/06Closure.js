@@ -11,4 +11,5 @@ console.log(add5(5));
 //this is possible because of closure and also how memory works in JS
 //remember the doAddition() never goes off from 
 //memory as one reference is alive for it
-console.log(doAddition(5)(5));
+console.log(doAddition(5)(5)); //known as curring
+
