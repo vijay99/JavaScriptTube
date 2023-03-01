@@ -1,0 +1,15 @@
+var User = {
+    name:"",
+    getUserName: function() {
+        console.log(`User name is :${this.name}`);
+    },
+
+};
+
+//creating object
+var vijay = Object.create(User);
+console.log(vijay);
+
+//assigning name and then calling method to print name
+vijay.name = "Kumar Vijay";
+vijay.getUserName();
