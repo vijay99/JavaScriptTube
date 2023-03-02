@@ -35,6 +35,7 @@ var myA =[4,6]
 
 //performing multiplication for first two element and adding rest other element in array
 function sumTwo(a,b,...args){  //this is Rest operator
+    console.log(args);
     let sum = 0;
     let multi= a*b;
     for(const arg of args ){
