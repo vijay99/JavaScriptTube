@@ -1,5 +1,13 @@
+// 
+
+
 fetch('https://api.chucknorris.io/jokes/random')
 .then((response) => {
-    console.log(response.json());
+   return response.json();
+})
+.then ( (data) => {
+   // console.log("DATA is:",data);
+   var joke = data.value;
+   console.log("Joke is :",joke);
 })
 .catch();
