@@ -114,6 +114,7 @@ function fails() {
     setTimeout( () =>{
       firstCard.classList.remove("flip");
     secondCard.classList.remove("flip");
+      reset();
     },1000);
 }
 
